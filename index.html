@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="nl" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Persoonlijke one-pager van Yago Breedijk - Web Developer">
+    <title>Yago Breedijk | Web Developer</title>
+
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://kit.fontawesome.com/f590cf3273.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">YB</a>
+
+            <button class="nav__hamburger" id="nav-toggle" aria-label="Menu" aria-expanded="false">
+                <span class="nav__hamburger-line"></span>
+                <span class="nav__hamburger-line"></span>
+                <span class="nav__hamburger-line"></span>
+            </button>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Over Mij</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Vaardigheden</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="section section--hero">
+            <div class="container">
+                <div class="hero">
+                    <h1 class="hero__title animate-fade-up">Hallo, ik ben <span class="highlight">Yago Breedijk</span>
+                    </h1>
+                    <p class="hero__subtitle animate-fade-up animate-delay-100">Web Developer</p>
+                    <p class="hero__description animate-fade-up animate-delay-200">
+                        Ik ben een gepassioneerde developer gespecialiseerd in het bouwen van moderne en
+                        gebruiksvriendelijke webapplicaties.
+                    </p>
+                    <div class="hero__cta animate-fade-up animate-delay-300">
+                        <a href="#contact" class="btn btn--primary">Neem contact op</a>
+                        <a href="#about" class="btn btn--secondary">Leer mij kennen</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section__title">Over <span class="highlight">Mij</span></h2>
+                <div class="about">
+                    <div class="about__image">
+                        <img src="img/yago-basketball.jpg" alt="Yago Breedijk" width="400" height="500">
+                    </div>
+                    <div class="about__content">
+                        <h3>Wie ben ik?</h3>
+                        <p>
+                            Ik ben Yago Breedijk, een 17-jarige student met een passie voor web development.
+                            Ik hou ervan om mooie, functionele websites te bouwen die gebruikers blij maken.
+                        </p>
+                        <div class="about__details">
+                            <div class="detail">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>yago@breedijk.net</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                                <div>
+                                    <h4>Locatie</h4>
+                                    <p>Nederland</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="skills" class="section section--light">
+            <div class="container">
+                <h2 class="section__title animate-fade-up">Mijn <span class="highlight">Vaardigheden</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-card animate-fade-up animate-delay-100">
+                        <i class="fab fa-html5 skill-card__icon"></i>
+                        <h3 class="skill-card__title">HTML</h3>
+                        <p class="skill-card__description">Semantische HTML voor toegankelijke websites.</p>
+                    </div>
+                    <div class="skill-card animate-fade-up animate-delay-200">
+                        <i class="fab fa-css3-alt skill-card__icon"></i>
+                        <h3 class="skill-card__title">CSS</h3>
+                        <p class="skill-card__description">Moderne CSS met Flexbox en Grid.</p>
+                    </div>
+                    <div class="skill-card animate-fade-up animate-delay-300">
+                        <i class="fab fa-js skill-card__icon"></i>
+                        <h3 class="skill-card__title">JavaScript</h3>
+                        <p class="skill-card__description">Interactieve en dynamische websites.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section__title animate-fade-up">Neem <span class="highlight">Contact</span> op</h2>
+                <div class="contact animate-zoom">
+                    <form id="contact-form" class="contact-form" action="javascript:mail()" method="POST"
+                        enctype="text/plain">
+                        <input type="hidden" name="mailto" value="yagoishier1@1gmail.com" />
+                        <input type="text" name="naam" placeholder="Naam" required
+                            class="animate-fade-up animate-delay-100" />
+                        <input type="text" name="CC" placeholder="E-mail" required
+                            class="animate-fade-up animate-delay-200" />
+                        <textarea name="bericht" placeholder="Bericht" rows="5" required
+                            class="animate-fade-up animate-delay-300"></textarea>
+                        <button type="submit" class="button animate-fade-up animate-delay-400">Verstuur</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__brand">
+                        <a href="#" class="footer__logo">YB</a>
+                        <p>&copy; <span id="current-year">2025</span> Yago Breedijk. Alle rechten voorbehouden.</p>
+                    </div>
+                    <ul class="footer__social">
+                        <li>
+                            <a href="https://github.com/yagoB123/m4-bo" target="_blank" rel="noopener noreferrer"
+                                aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"
+                                aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+        <a href="#home" class="back-to-top" aria-label="Terug naar boven">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+
+
+        <script src="js/main.js" defer></script>
+</body>
+
+</html>
